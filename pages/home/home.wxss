@@ -1,0 +1,66 @@
+/* pages/home/home.wxss */
+swiper {
+  height: 350rpx;
+}
+swiper image {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-list {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1rpx solid #efefef;
+  border-left: 1rpx solid #efefef;
+}
+
+.grid-item {
+  width: 33.33%;
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1rpx solid #efefef;
+  border-bottom: 1rpx solid #efefef;
+  box-sizing: border-box;
+}
+.grid-item image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.grid-item text {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+}
+
+.bot {
+  margin: 16rpx 0rpx;
+  height: 120rpx;
+  display: flex;
+  margin-left: 64rpx;
+}
+
+.bot :first-child {
+  background-color: rgb(255, 115, 115);
+  height: 120rpx;
+  width: 280rpx;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 120rpx;
+  color: #f1f1f1;
+  font-size: 32rpx;
+  margin-right: 64rpx;
+}
+
+.bot :nth-child(2) {
+  background-color: rgb(112, 203, 255);
+  height: 120rpx;
+  width: 280rpx;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 120rpx;
+  color: #f1f1f1;
+  font-size: 32rpx;
+}

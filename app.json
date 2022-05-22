@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/message/message",
+    "pages/contact/contact"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "navigationBarTitleText": "本地生活",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "images/tabs/home-default.png",
+      "selectedIconPath": "images/tabs/home- select.png"
+    },
+    {
+      "pagePath": "pages/message/message",
+      "text": "消息",
+      "iconPath": "images/tabs/light-default.png",
+      "selectedIconPath": "images/tabs/light-select.png"
+    },
+    {
+      "pagePath": "pages/contact/contact",
+      "text": "联系",
+      "iconPath": "images/tabs/mine2-default.png",
+      "selectedIconPath": "images/tabs/mine2-select.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

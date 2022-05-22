@@ -1,0 +1,16 @@
+<!--pages/home/home.wxml-->
+<swiper indicator-dots circular>
+  <swiper-item wx:for="{{swiperList2}}" wx:key="id">
+    <image src="{{item.img}}"></image>
+  </swiper-item>
+</swiper>
+<view class="grid-list">
+  <view class="grid-item" wx:for="{{jiugong}}" wx:key="id">
+    <image src="{{item.icon}}"></image>
+    <text>{{item.name}}</text>
+  </view>
+</view>
+<view class="bot">
+  <view>商家详情</view>
+  <view>交友论坛</view>
+</view>
